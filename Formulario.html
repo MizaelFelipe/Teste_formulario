@@ -21,7 +21,7 @@
 
         <form class="form" id="form">
 
-            <div class="form-control success ">
+            <div class="form-control  ">
                 <label for="Nome"> Nome</label>
                 <input type="text" id="username">
                 <i><img class="img-success" src="./imagens/success-icon.svg" alt="success"></i>
@@ -30,9 +30,9 @@
                 <small>Mensagem de erro</small>
             </div>
 
-            <div class="form-control error ">
+            <div class="form-control  ">
                 <label for="Nome"> E-mail</label>
-                <input type="Email" id="email">
+                <input type="Email" id="email" >
                 <i><img class="img-success" src="./imagens/success-icon.svg" alt="success"></i>
                 <i><img class="img-error" src="./imagens/error-icon.svg" alt="error"></i>
 
@@ -41,7 +41,7 @@
 
             <div class="form-control">
                 <label for="Nome"> Senha </label>
-                <input type="password" id="password">
+                <input type="password" id="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$" title="Esse campo deve contar no minimo 8 caracteres 1 letra maiuscula 1 letra minuscula e 1 numero"   >
                 <i><img class="img-success" src="./imagens/success-icon.svg" alt="success"></i>
                 <i><img class="img-error" src="./imagens/error-icon.svg" alt="error"></i>
 
