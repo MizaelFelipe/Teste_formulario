@@ -64,6 +64,11 @@ body {
     padding: 15px;
 }
 
+/*teste css*/
+form-control.success input{
+    border: 3px solid #DB5A5A;
+}
+ /* teste*/
 .form-control.success input {
     border: 3px solid #4ECA64;
 }
@@ -72,11 +77,11 @@ body {
     border: 3px solid #DB5A5A;
 }
 
-.form-control.error i.img-error {
+.form-control.error i .img-error {
     visibility: visible;
 }
 
-.form-control.success i.img-success {
+.form-control.success i .img-success {
     visibility: visible;
 }
 
